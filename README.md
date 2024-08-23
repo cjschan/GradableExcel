@@ -1,6 +1,6 @@
 <h1>Installation notes</h1>
 
-<p>The quickest way is to use the Yeoman Generator for Office Add-Ins, which requires the latest LTS version of Node.js.</p>
+<p>The quickest way to create an Excel add-in is to use the Yeoman Generator for Office Add-Ins, which requires the latest LTS version of Node.js.</p>
 
 ````
 npm install -g yo generator-office
