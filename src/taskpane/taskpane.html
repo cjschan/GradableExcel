@@ -13,23 +13,27 @@
     <!-- Office JavaScript API -->
     <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
 
+    <!-- XLSX -->
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+    
     <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
 
     <!-- Template styles -->
     <link href="taskpane.css" rel="stylesheet" type="text/css" />
+    <!-- <script type="text/javascript" src="taskpane.js"></script> -->
+    
 </head>
 
 <body class="ms-font-m ms-welcome ms-Fabric">
-    <h1>Creating linear models</h1>
+    <h1>Sales analysis for EcoTech Innovations</h1>
     <h2>Tasks</h2>
-    <ol>
-        <li>Find the correlation between Hours and GPA. Enter the formula in cell D2.</li>
-        <li>Create a scatterplot.</li>
-    </ol>
+    <div id="questions"></div>
     <button id="btn">Generate new data</button>
     <button id="check">Check your answer</button>
-    <button id="reset">Reset spreadsheet</button>
+    <button id="resetter">Reset spreadsheet</button>
+    <div id="feedback" style="color:blue; font-size:160%;"></div>
+    
 </body>
 
 </html>
